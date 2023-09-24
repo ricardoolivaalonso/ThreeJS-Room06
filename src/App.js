@@ -9,7 +9,7 @@ import { EffectComposer, Bloom } from '@react-three/postprocessing'
 export default function App() {
 
   return (
-    <Canvas shadows camera={{ position: [0, 2, 6], fov: 25 }} style={{height: '100vh'}}>
+    <Canvas shadows camera={{ position: [0, 2, 6], fov: 25 }}>
 		<group position={[0, -0.5, 0]}>
 			<Center top>
 				<Suzi/>
